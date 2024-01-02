@@ -35,7 +35,7 @@ with col2:
 
     # Display a warning if chunk_overlap is not less than chunk_size
     if chunk_overlap >= chunk_size:
-        st.warning("Chunk Overlap should be less than Chunk Length!")
+        st.warning("Chunk Overlap muss kleiner Chunk Length sein!")
 
 with col3:
     length_function = st.selectbox("Length Function", ["Characters", "Tokens"])
@@ -85,7 +85,7 @@ else:
 # st.info(import_text)
 
 # Box for pasting text
-doc = st.text_area("Paste your text here:", height=500)
+doc = st.text_area("Fügen Sie Ihren Text hier ein:", height=500)
 
 # Split text button
 if st.button("Split Text"):

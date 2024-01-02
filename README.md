@@ -2,7 +2,9 @@
 
 ## fork von Harrison Chase
 
-![ui.png](ui.png)
+<img src="ui.png" alt="drawing" width="650"/>
+
+</br>
 
 Bei vielen der wichtigsten LLM-Anwendungen geht es darum, LLMs mit externen Datenquellen zu verbinden. Eine Voraussetzung dafür ist, dass die Daten in ein Format gebracht werden, in dem LLMs sich leicht mit ihnen verbinden können. In den meisten Fällen bedeutet das, dass die Daten in einen Vektorspeicher gebracht werden. Eine Voraussetzung dafür ist, dass der ursprüngliche Text in kleinere Teile zerlegt wird.
 
@@ -16,11 +18,11 @@ Sie können verschiedene Parameter einstellen und verschiedene Arten von Splitte
 Wenn Sie eine Textdatei einfügen, können Sie den Splitter auf diesen Text anwenden und die resultierenden Aufteilungen sehen.
 Es wird auch ein Codeschnipsel angezeigt, den Sie kopieren und in Ihrer Anwendung verwenden können.
 
-## Hosted App
+## App auf Streamlit
 
-To use the hosted app, head to [https://langchain-text-splitter.streamlit.app/](https://langchain-text-splitter.streamlit.app/)
+Die App ist auf Streamlit gehostet: [https://langchain-text-splitter.streamlit.app/](https://langchain-text-splitter.streamlit.app/)
 
-## Running locally
+## App auf lokalem Rechner
 
 Um lokal zu arbeiten, richten Sie zunächst die Umgebung ein, indem Sie das Repo klonen und ausführen:
 
